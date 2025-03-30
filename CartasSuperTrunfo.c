@@ -12,6 +12,7 @@ int main() {
     float Area2, PIB2, PibPercapita2, DensidadePopulacional2, SuperPoder2;
 
     // Entrada de dados
+    printf("=======JOGO SUPER TRUNFO======\n");
     printf("Digite o Estado (EX: PR): ");
     scanf("%2s", Estado1); 
     
@@ -92,5 +93,19 @@ int main() {
     printf("PIB per Capita: Carta %d venceu (%d)\n", PibPercapita1 > PibPercapita2 ? 1 : 2, PibPercapita1 > PibPercapita2);
     printf("Super Poder: Carta %d venceu (%d)\n", SuperPoder1 > SuperPoder2 ? 1 : 2, SuperPoder1 > SuperPoder2);
 
+if(SuperPoder1>SuperPoder2){
+printf("===VITORIA DA CARTA 1=====\n");
+
+}else{
+printf("====VITORIA DA CARTA 2=====\n");
+
+}
+printf("=====FIM DO JOGO=====");
+    //> : Maior que
+//< : Menor que
+//>= : Maior ou igual a
+//<= : Menor ou igual a
+//== : Igual a
+//!= : Diferente de
     return 0;
 }
